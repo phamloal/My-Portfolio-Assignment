@@ -115,12 +115,23 @@
         </div>
       </section>
       
-    <section id="video-celebration">
-        <h2>Video Celebration</h2>
-        <p>This is a video that show our celebration when we will gonna win the Hackathon Portfolio Project with my <br> TEAMS.</p>
-    <video controls autoplay loop>
-        <source src="https://videos.pexels.com/video-files/6805179/6805179-sd_960_506_25fps.mp4" type="video/mp4">
-        Your browser does not support the <video src=""></video> element.
-    </video>
+      <section id="video background">
+        <h2>Celebration Show</h2>
+        <p>This is a video that show our celebration when we will gonna win the Hackathon Portfolio Project <br> with my TEAMS.</p>
+        <video autoplay muted loop id="bg-video">
+            <source src="https://videos.pexels.com/video-files/7792311/7792311-sd_640_360_25fps.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <style>
+            #bg-video {
+                position: bottom;
+                top: 0;
+                left: 0;
+                width: 60%;
+                height: 60%;
+                object-fit: cover;
+                z-index: -1;
+            }
+    
 </body>
 </html>
